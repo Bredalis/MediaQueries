@@ -8,9 +8,8 @@ h1 {
     text-align: center; 
 }
 
-/* Establecer en vista preeliminar */
+/* Establecer en vista preliminar */
 @media print {
-
     body {
         background-color: white;
     }
@@ -20,9 +19,8 @@ h1 {
     }
 }
 
-/* Establecer estilos en el navegador */
+/* Establecer estilos en el navegador para pantallas pequeñas */
 @media screen and (max-width: 480px) {
-
     body {
         background-color: pink;
     }
@@ -34,7 +32,6 @@ h1 {
 
 /* Establecer estilos en el navegador con un rango */
 @media screen and (min-width: 400px) and (max-width: 480px) {
-
     body {
         background-color: grey;
     }
